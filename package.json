@@ -1,0 +1,26 @@
+{
+  "name": "spz-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:gh-pages": "cross-env DEPLOY_TARGET=gh-pages vite build",
+    "build:vercel": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@spz-loader/playcanvas": "^0.2.0",
+    "playcanvas": "^2.6.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vite": "^5.0.0"
+  }
+}

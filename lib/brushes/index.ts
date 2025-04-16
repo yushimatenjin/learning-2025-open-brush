@@ -1,0 +1,1 @@
+export { createDiamondHullMaterial } from './diamond-hull/material';
